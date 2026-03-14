@@ -1,0 +1,17 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow anyone to create a signup (write-only, no read)
+    match /app_notify_signups/{document} {
+      allow create: if request.resource.data.phone is string
+                    && request.resource.data.phone.size() == 13;
+      allow read, update, delete: if false;
+    }
+
+    // Default deny all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

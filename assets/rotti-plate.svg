@@ -1,0 +1,92 @@
+<svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Plate Background -->
+  <ellipse cx="200" cy="210" rx="180" ry="160" fill="#E8E8E8"/>
+  <ellipse cx="200" cy="200" rx="170" ry="150" fill="#F5F5F5"/>
+  <ellipse cx="200" cy="195" rx="160" ry="140" fill="#FAFAFA"/>
+
+  <!-- Plate Inner Shadow -->
+  <ellipse cx="200" cy="200" rx="150" ry="130" fill="url(#plateShadow)"/>
+
+  <!-- Rotti 1 (bottom) -->
+  <ellipse cx="180" cy="220" rx="100" ry="85" fill="#E8D5C4"/>
+  <ellipse cx="180" cy="215" rx="95" ry="80" fill="#F0E2D3"/>
+
+  <!-- Rotti 1 texture spots -->
+  <circle cx="140" cy="200" r="8" fill="#C4A484"/>
+  <circle cx="160" cy="240" r="6" fill="#D4B494"/>
+  <circle cx="200" cy="190" r="10" fill="#C4A484"/>
+  <circle cx="220" cy="230" r="7" fill="#D4B494"/>
+  <circle cx="130" cy="230" r="5" fill="#B89974"/>
+  <circle cx="180" cy="180" r="6" fill="#C4A484"/>
+  <circle cx="210" cy="210" r="8" fill="#D4B494"/>
+  <circle cx="150" cy="220" r="4" fill="#B89974"/>
+  <circle cx="190" cy="250" r="5" fill="#C4A484"/>
+
+  <!-- Rotti 1 white spots (blisters) -->
+  <circle cx="155" cy="195" r="4" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="195" cy="225" r="5" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="170" cy="245" r="3" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="215" cy="195" r="4" fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- Rotti 2 (top, slightly overlapping) -->
+  <ellipse cx="220" cy="180" rx="90" ry="75" fill="#E8D5C4"/>
+  <ellipse cx="220" cy="175" rx="85" ry="70" fill="#F0E2D3"/>
+
+  <!-- Rotti 2 texture spots -->
+  <circle cx="190" cy="160" r="7" fill="#C4A484"/>
+  <circle cx="240" cy="150" r="5" fill="#D4B494"/>
+  <circle cx="260" cy="180" r="8" fill="#C4A484"/>
+  <circle cx="200" cy="190" r="6" fill="#B89974"/>
+  <circle cx="230" cy="170" r="4" fill="#D4B494"/>
+  <circle cx="250" cy="200" r="5" fill="#C4A484"/>
+  <circle cx="185" cy="180" r="3" fill="#B89974"/>
+
+  <!-- Rotti 2 white spots -->
+  <circle cx="210" cy="155" r="4" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="245" cy="175" r="3" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="225" cy="195" r="4" fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- Side dish (Sabji/Pickle) -->
+  <ellipse cx="320" cy="160" rx="50" ry="40" fill="#F4C430" opacity="0.8"/>
+
+  <!-- Sabji pieces -->
+  <rect x="300" y="145" width="15" height="8" rx="1" fill="#E8A838" transform="rotate(-15 307 149)"/>
+  <rect x="315" y="155" width="12" height="7" rx="1" fill="#E8A838" transform="rotate(10 321 158)"/>
+  <rect x="325" y="145" width="14" height="8" rx="1" fill="#E8A838" transform="rotate(5 332 149)"/>
+  <rect x="308" y="165" width="11" height="6" rx="1" fill="#E8A838" transform="rotate(-8 313 168)"/>
+  <rect x="330" y="160" width="13" height="7" rx="1" fill="#E8A838"/>
+
+  <!-- Mustard seeds on sabji -->
+  <circle cx="305" cy="150" r="1.5" fill="#1A1614"/>
+  <circle cx="325" cy="155" r="1.5" fill="#1A1614"/>
+  <circle cx="315" cy="168" r="1.5" fill="#1A1614"/>
+  <circle cx="335" cy="148" r="1.5" fill="#1A1614"/>
+
+  <!-- Red Chili -->
+  <path d="M290 140 Q300 135 310 140 Q305 150 295 148 Q288 145 290 140" fill="#D4452C"/>
+  <path d="M308 138 L315 132" stroke="#2D8A2D" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Onion Slices -->
+  <g transform="translate(280, 260)">
+    <!-- Onion ring 1 -->
+    <ellipse cx="30" cy="15" rx="25" ry="20" fill="none" stroke="#8B4585" stroke-width="2"/>
+    <ellipse cx="30" cy="15" rx="20" ry="16" fill="none" stroke="#A855A0" stroke-width="1.5"/>
+    <ellipse cx="30" cy="15" rx="15" ry="12" fill="none" stroke="#C87CC0" stroke-width="1"/>
+    <ellipse cx="30" cy="15" rx="10" ry="8" fill="none" stroke="#D89ED0" stroke-width="0.8"/>
+    <ellipse cx="30" cy="15" rx="5" ry="4" fill="#E8B8E0"/>
+
+    <!-- Onion ring 2 (smaller, beside) -->
+    <ellipse cx="65" cy="20" rx="18" ry="15" fill="none" stroke="#8B4585" stroke-width="2"/>
+    <ellipse cx="65" cy="20" rx="14" ry="11" fill="none" stroke="#A855A0" stroke-width="1.5"/>
+    <ellipse cx="65" cy="20" rx="10" ry="8" fill="none" stroke="#C87CC0" stroke-width="1"/>
+    <ellipse cx="65" cy="20" rx="6" ry="4" fill="#E8B8E0"/>
+  </g>
+
+  <!-- Decorative border patterns (traditional Ilkal-inspired) -->
+  <defs>
+    <radialGradient id="plateShadow">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </radialGradient>
+  </defs>
+</svg>
